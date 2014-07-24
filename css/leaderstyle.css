@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face
+{
+font-family: segoe ui;
+src: url('../font/segoeui.ttf');
+}
+@font-face
+{
+font-family:hell;
+src: url('font/hh.ttf');
+}
+@font-face
+{
+font-family:helllight;
+src: url('font/hhlight.ttf');
+}
+
+body
+{
+	font-family:segoe ui;
+	
+}
+table
+ {
+	 width:80%;
+border: 2px solid #3DAFBC;
+	 
+}
+tr
+{
+display: table-row;
+vertical-align: inherit;
+border-color: inherit
+}
+td
+{
+
+padding: 10px;
+border: 2px;
+	
+}
+tr:nth-child(even) 
+{
+background:#3DAFBC;
+}
+.leader
+{
+ 	background-color:#FBFBFB;
+	box-shadow:0 0 10px #CCC;
+	width:1000px;
+	margin-left:200px;
+	
+	
+	
+}
+.delete
+{
+padding:15px;
+padding-top:6px;
+padding-bottom:6px;
+border-radius:1px;
+background:#F00;
+cursor:pointer;
+
+
+	
+}
+.end
+{
+	font-family:helllight;
+	
+}
+.endtext
+{
+	font-family:helllight;
+	
+}

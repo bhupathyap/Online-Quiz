@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+@font face
+{
+font-family:segoe ui;
+src:url('font/segoeui.ttf');
+}
+@font face
+{
+font-family:Helvatican;
+src:url('font/HelveticaNeue.ttf');
+}
+
+body
+{
+	 background-color:#F4F4F4;
+font-family:segoe ui;
+text-align:justify;	
+}
+
+
+input[type="text"]{
+	background-color:#FBFBFB;
+	border: 2px solid #FFAEAE;
+height: 40px;
+color: #333333;
+padding-left: 10px;
+margin-bottom: 15px;
+border-radius: 5px;
+border-color: #f7f7f7;
+
+
+font-family:segoe ui;
+padding:6px;
+padding-right:10px;
+border-top-color:#FFFFFF;
+background:#fff;
+margin-left:20px;
+
+}
+input[type="button"]{
+	color:#FFFFFF;
+	background-color:#FF3333;
+	border: 2px solid #F33;
+height: 40px;
+color: #333333;
+padding-left: 40px;
+padding-right:40px;
+margin-bottom: 15px;
+border-radius: 5px;
+border-color: #f7f7f7;
+
+
+font-family:segoe ui;
+
+
+}
+.choose
+{
+	
+	margin-left:100px;
+}
+
+input[type="text"]:focus
+{
+outline:0px;
+border: 2px solid #FA566F;
+box-shadow: 0px 0px 10px #FA566F;	
+	
+}
+.registerbutton{
+
+padding:15px;
+padding-top:6px;
+padding-bottom:6px;
+border-radius:1px;
+background:#F33;
+cursor:pointer;
+box-shadow:0 0 10px #000;
+text-transform:uppercase;
+}
+label {
+	width:200px;
+	color:#000000;
+	font-size:18px;
+    background:#F4F4F4;
+   
+    border-radius:4px;   
+    padding:4px;;
+    margin:1px;
+    cursor:pointer;
+}
+
+label:hover {
+    background:#090;   
+}input[type="radio"]{
+
+padding:10px;
+padding-top:6px;
+padding-bottom:6px;
+border-radius:5px;
+cursor:pointer;
+}
+.next
+{
+padding:20px;
+padding-top:6px;
+padding-bottom:6px;
+border-radius:6px;
+background:#0C3;
+cursor:pointer;
+text-transform:uppercase;	
+	
+}
+tr
+{
+	font-size:20px;
+	height:50px;
+	width:50px;
+	
+}
+
+.one
+{
+	margin-left:300px;
+	text-align:left;
+	margin-top:40px;
+	color:#F33;
+ }
+.imageone
+{
+	margin-left:300px;
+	text-align:left;
+	margin-top:40px;
+	color:#F33;
+ }
+
+.onereg
+{
+	background-color:#FFFFFF;
+	text-align:center;
+	margin-left:0px;
+	
+	
+	color:#F33;
+ }
+.titlereg
+{
+	
+	margin-left:190px;
+	text-align:center;
+	font-family:segoe ui;
+	width:900px;
+     font-size:36px;    
+	height:100px;
+	color:#F00;
+ }
+ a
+ {
+	color:#FFFFFF;
+	
+	 float:right;
+	 padding:8px;
+	 
+	 
+	 }
+ .sessionname
+ {
+	 float:left;
+	 padding:8px;
+	 color:#FFFFFF;
+	 
+	 
+	 }
+
+.head
+{
+	margin-top:0px;
+	color:#FFFFFF;
+ 
+	width:900px;
+	height:30px;
+	
+	background-color:#616161;
+text-align:center;	
+}
+
+.imagehead
+{
+	margin-top:10px;
+	color:#FFFFFF;
+ 
+	width:900px;
+	height:30px;
+	
+	background-color:#616161;
+text-align:center;	
+}
+
+.headreg
+{
+	width:900px;
+	height:30px;
+	
+	background-color:# CCC;
+text-align:center;	
+}
+.whole
+{
+	border-radius:12px;
+     background-color:#FFF;
+	text-align:left;
+	margin-left:220px;
+	height:600px;
+	width:900px;
+	box-shadow: 0 0 10px #666;
+	
+}
+.imagewhole
+{
+	border-radius:12px;
+     background-color:#FFF;
+	text-align:left;
+	margin-left:220px;
+	height:1000px;
+	width:900px;
+	box-shadow: 0 0 10px #666;
+	
+}
+
+.wholereg
+{
+	text-align:center;
+	margin-left:10px;
+	background-color:#FFF;
+	height:800px;
+	width:1330px;
+	box-shadow: 0 0 10px #666;
+	
+}
+.tablequestion
+{
+  
+}
+
+
+
